@@ -7,3 +7,34 @@
   height: 90vh;
   /* background-clip: content-box; */
 }
+
+.textWrapper {
+  display: flex;
+  align-items: center;
+}
+
+.title {
+  position: relative;
+  font-family: 'Open Sans', sans-serif;
+  font-size: min(4vw, 48px);
+  font-weight: 800;
+  line-height: 74.57px;
+  letter-spacing: 0.1em;
+  color: rgba(255, 107, 0, 1);
+  margin-top: 30px;
+  text-align: center;
+  overflow: hidden;
+}
+
+.title::after {
+  content: '';
+  position: absolute;
+  top: 55%;
+  /* left: 10px; */
+  /* transform: translateX(-55%); */
+  transform: translateY(-50%);
+  width: 500px;
+  height: min(2vw, 48px);
+
+  background-color: rgba(255, 107, 0, 1);
+}

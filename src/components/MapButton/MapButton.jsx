@@ -1,4 +1,5 @@
 import React from 'react';
+import s from './MapButton.module.css';
 
 const MapButton = () => {
   const handleOpenMaps = () => {
@@ -15,7 +16,11 @@ const MapButton = () => {
     window.open(url, '_blank');
   };
 
-  return <button onClick={handleOpenMaps}>Маршрут</button>;
+  return (
+    <button onClick={handleOpenMaps} className={s.btn}>
+      Маршрут
+    </button>
+  );
 };
 
 export default MapButton;

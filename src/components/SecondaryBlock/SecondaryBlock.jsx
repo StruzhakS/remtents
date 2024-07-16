@@ -5,18 +5,20 @@ import MapButton from 'components/MapButton/MapButton';
 const SecondaryBlock = () => {
   return (
     <section className={s.section} id="secondaryBlock">
-      <h2>местонахождение</h2>
-      <div style={{ width: '100%', height: '400px' }}>
-        {/* <iframe
-          width="100%"
-          height="100%"
-          frameborder="0"
-          style={{ border: 0 }}
-          src="https://www.google.com/maps/embed?pb=ВАШ_EMBED_URL"
-          allowfullscreen=""
-          aria-hidden="false"
-          tabindex="0"
-        ></iframe> */}
+      <h2 className={s.title}>местонахождение</h2>
+
+      <div
+        style={{
+          display: 'flex',
+          flexDirection: 'column',
+          justifyContent: 'center',
+          alignItems: 'center',
+          width: '100%',
+          height: '400px',
+          marginLeft: '150px',
+          marginTop: '30px',
+        }}
+      >
         <iframe
           title="google map"
           className={s.map}

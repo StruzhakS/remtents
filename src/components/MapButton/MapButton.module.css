@@ -1,0 +1,15 @@
+.btn {
+  width: 189px;
+  height: 62px;
+  gap: 0px;
+  border-radius: 999px;
+  opacity: 0px;
+  background: rgba(255, 107, 0, 1);
+  color: white;
+  font-family: Roboto;
+  font-size: 24px;
+  font-weight: 700;
+  line-height: 18.34px;
+  margin-top: 16px;
+  text-transform: uppercase;
+}
