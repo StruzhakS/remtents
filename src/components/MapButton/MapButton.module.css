@@ -1,15 +1,11 @@
 .btn {
-  /* width: 189px; */
   font-family: Roboto;
-  /* height: 62px; */
   padding: 8px 16px;
-  gap: 0px;
   border-radius: 16px;
-  opacity: 0px;
-  background: rgba(255, 107, 0, 1);
+  background-color: rgba(255, 107, 0, 1);
   color: white;
   font-weight: 700;
-  line-height: 18.34px;
+  line-height: 18px;
   margin-top: 16px;
   text-transform: uppercase;
   margin-left: 20%;
