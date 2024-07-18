@@ -30,11 +30,28 @@
   content: '';
   position: absolute;
   top: 55%;
-  /* left: 10px; */
-  /* transform: translateX(-55%); */
   transform: translateY(-50%);
   width: 500px;
   height: min(2vw, 48px);
-
   background-color: rgba(255, 107, 0, 1);
+}
+
+.mapWrapper {
+  width: 676px;
+  height: 488px;
+  margin-left: 20%;
+}
+
+@media screen and (max-width: 900px) {
+  .mapWrapper {
+    width: 400px;
+    height: 350px;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .mapWrapper {
+    width: 240px;
+    height: 200px;
+  }
 }

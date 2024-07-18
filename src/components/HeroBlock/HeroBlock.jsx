@@ -10,6 +10,7 @@ const HeroBlock = () => {
           maxWidth: '630px',
           width: '100%',
           paddingBottom: '150px',
+          paddingLeft: '20px',
         }}
       >
         <div

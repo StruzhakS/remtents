@@ -36,12 +36,12 @@ const Footer = () => {
           44635
         </p>
         <a className={s.footerTel} href="tel:+380501589860">
-          <img src={phoneFooter} width={40} height={40} alt="tell " />
+          <img src={phoneFooter} width={32} height={32} alt="tell " />
           +380501589860
         </a>
 
         <a className={s.emailLink} href="mailto:remonttent.dn@gmail.com">
-          <img src={email} width={40} height={40} alt="email logo" />
+          <img src={email} width={32} height={32} alt="email logo" />
           remonttent.dn@gmail.com
         </a>
         {/* <SocialNetwork /> */}
