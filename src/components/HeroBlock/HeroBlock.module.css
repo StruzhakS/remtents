@@ -61,14 +61,16 @@
   display: flex;
   justify-content: center;
   align-items: center;
-  color: rgba(46, 44, 52, 1);
+  margin: 0 auto;
+  color: rgba(255, 107, 0, 1);
   font-family: Roboto;
   line-height: 1;
-  border: 1px solid rgba(46, 44, 52, 1);
+  border: 1px solid rgba(255, 107, 0, 1);
   border-radius: 999px;
   padding: 8px 16px;
   text-transform: uppercase;
   gap: 8px;
+  font-weight: bold;
 }
 
 .link:hover {
@@ -77,4 +79,8 @@
 
 .link:hover > img {
   scale: 1.2;
+}
+
+.img {
+  fill: red;
 }

@@ -49,20 +49,23 @@ const HeroBlock = () => {
           </span>
         </h2>
         <div className={s.linkWrapper}>
-          <a
-            href="tel:+380501589860"
-            className={`${s.link} ${s.btn} ${s.btnWhite} ${s.btnAnimate}`}
-          >
+          <a href="tel:+380501589860" className={s.link}>
             Позвонить
-            <img src={arrowR} width={19} height={19} alt="arrowR logo" />
+            <img
+              src={arrowR}
+              width={19}
+              height={19}
+              className={s.img}
+              alt="arrowR logo"
+            />
           </a>
-          <a
+          {/* <a
             href="#secondaryBlock"
             className={`${s.link} ${s.btn} ${s.btnWhite} ${s.btnAnimate}`}
           >
             гео-локация
             <img src={arrowR} width={19} height={19} alt="arrowR logo" />
-          </a>
+          </a> */}
         </div>
       </div>
     </section>

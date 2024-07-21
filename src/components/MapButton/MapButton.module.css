@@ -8,5 +8,11 @@
   line-height: 18px;
   margin-top: 16px;
   text-transform: uppercase;
-  margin-left: 20%;
+  margin-right: 30%;
+}
+
+@media screen and (max-width: 600px) {
+  .btn {
+    margin-right: 0;
+  }
 }
